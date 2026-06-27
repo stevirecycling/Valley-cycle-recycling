@@ -5,7 +5,7 @@ const Features = () => {
     { icon: '⚡', title: 'FAST & RELIABLE', description: 'Quick pickup when you need it.' },
     { icon: '🏠', title: 'CONVENIENT', description: 'We come to you. No extra time needed.' },
     { icon: '♻️', title: 'ECO-FRIENDLY', description: 'Keeping recyclables out of landfills.' },
-    { icon: '🏔️', title: 'LOCAL SERVICE', description: 'Proudly serving Stevensville and the Bitterroot Valley.' },
+    { icon: '🏞️', title: 'LOCAL SERVICE', description: 'Proudly serving Stevensville and the Bitterroot Valley.' },
   ]
 
   return (
