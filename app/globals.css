@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  color: #333333;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('/hero-bg.jpg') center/cover no-repeat;
+  min-height: 600px;
+}
+
+.btn-primary {
+  @apply px-6 py-3 bg-accent-brown text-white font-bold rounded hover:bg-accent-brown-dark transition-colors;
+}
+
+.btn-secondary {
+  @apply px-6 py-3 bg-primary-600 text-white font-bold rounded hover:bg-primary-700 transition-colors;
+}
+
+.feature-card {
+  @apply p-6 text-center hover:shadow-lg transition-shadow;
+}
+
+.section-title {
+  @apply text-4xl font-bold text-center mb-12 text-accent-brown;
+}
